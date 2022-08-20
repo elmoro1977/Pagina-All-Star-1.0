@@ -1076,8 +1076,9 @@ h1 {
 .grid-container-main-contacto {
     display: grid;
     grid-template-columns: 1, auto;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
+        "chica"
         "form"
         "gracias"
     ;
@@ -1089,6 +1090,13 @@ h1 {
     font-size: 18px;
 }
 
+.chica {
+    display: flex;
+    grid-area: chica;
+    justify-content: center;
+    
+}
+
 .form {
     background-image: url(../assets/img/abstract-background-blue.jpg);
     display: flex;
@@ -1096,6 +1104,11 @@ h1 {
     justify-content: center;
     grid-area: form;
     padding-top: 15px;
+}
+
+.chica img{
+    width: 350px;
+    height: 213px;
 }
 
 .gracias {
