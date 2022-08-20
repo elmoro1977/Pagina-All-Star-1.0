@@ -112,7 +112,7 @@ html {
 
 .navbar a {
     font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
     color: white;
 }
@@ -317,6 +317,11 @@ html {
 
 
 @media (min-width: 768px) {
+
+
+    .navbar a {
+        font-size: 18px;
+    }
 
     .footer {
         margin-bottom: auto;
@@ -593,20 +598,20 @@ h1 {
 
 @media (min-width: 768px) {
 
-.infoDos {
-    font-size: 20px;
-}
+    .infoDos {
+        font-size: 20px;
+    }
 
-.nosotros img {
+    .nosotros img {
 
-    width: 350px;
-    height: 225px;
+        width: 350px;
+        height: 225px;
 
-}
+    }
 
-.container-main-nosotros {
-    margin-bottom: 15px;
-}
+    .container-main-nosotros {
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -615,7 +620,7 @@ h1 {
     .infoDos {
         font-size: 25px;
     }
-    
+
     .nosotros img {
         width: 400px;
         height: 257px;
@@ -625,9 +630,10 @@ h1 {
         margin-right: 50px;
         margin-left: 50px;
     }
+
     .navbar a {
         font-size: 20px;
-      
+
     }
 
 }
@@ -637,7 +643,7 @@ h1 {
     .infoDos {
         font-size: 30px;
     }
-    
+
     .nosotros img {
         width: 500px;
         height: 322px;
@@ -647,9 +653,10 @@ h1 {
         margin-right: 80px;
         margin-left: 80px;
     }
+
     .navbar a {
         font-size: 25px;
-      
+
     }
 
 }
@@ -659,30 +666,30 @@ h1 {
 
 .grid-container-main-productos {
 
-display: grid;
-grid-template-columns: repeat(2, auto);
-grid-template-rows: repeat(4, auto);
-grid-template-areas: 
-"productoUno productoDos"
-"productoTres productoCuatro"
-"productoCinco productoSeis"
-"productoSiete productoOcho"
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "productoUno productoDos"
+        "productoTres productoCuatro"
+        "productoCinco productoSeis"
+        "productoSiete productoOcho"
 
-;
-grid-area: main;
+    ;
+    grid-area: main;
 
 
 }
 
-.grid-container-main-productos img{
+.grid-container-main-productos img {
     width: 150px;
     height: 150px;
 }
 
-.grid-container-main-productos p{
+.grid-container-main-productos p {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
- 
+
 }
 
 .productoUno {
@@ -694,6 +701,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoDos {
     display: flex;
     flex-direction: column;
@@ -703,6 +711,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoTres {
     display: flex;
     flex-direction: column;
@@ -712,6 +721,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoCuatro {
     display: flex;
     flex-direction: column;
@@ -721,6 +731,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoCinco {
     display: flex;
     flex-direction: column;
@@ -730,6 +741,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoSeis {
     display: flex;
     flex-direction: column;
@@ -739,6 +751,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoSiete {
     display: flex;
     flex-direction: column;
@@ -748,6 +761,7 @@ grid-area: main;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .productoOcho {
     display: flex;
     flex-direction: column;
@@ -758,7 +772,7 @@ grid-area: main;
     padding-bottom: 15px;
 }
 
-.grid-container-main-productos button{
+.grid-container-main-productos button {
     font-family: 'Poppins', sans-serif;
     width: 70px;
     height: 25px;
@@ -768,23 +782,23 @@ grid-area: main;
     background-color: #DB2763;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: gray;
 }
 
 @media (min-width: 768px) {
 
-    .grid-container-main-productos img{
+    .grid-container-main-productos img {
         width: 250px;
         height: 250px;
     }
 
-    .grid-container-main-productos p{
+    .grid-container-main-productos p {
         font-size: 20px;
     }
-    
-    .grid-container-main-productos button{
-        font-family: 'Poppins', sans-serif;
+
+    .grid-container-main-productos button {
+
         width: 85px;
         height: 35px;
         font-size: 20px;
@@ -792,11 +806,11 @@ grid-area: main;
         color: white;
         background-color: #DB2763;
     }
-    
-    .btn:hover{
+
+    .btn:hover {
         background-color: gray;
     }
-    
+
 
 }
 
@@ -807,123 +821,322 @@ grid-area: main;
         grid-template-columns: repeat(5, auto);
         grid-template-rows: repeat(4, auto);
         grid-template-areas:
-        "productoUno productoUno productoDos productoCuatro productoCuatro"
-        "productoUno productoUno productoTres productoCuatro productoCuatro"
-        "productoCinco productoSiete productoSiete productoOcho productoOcho"
-        "productoSeis productoSiete productoSiete productoOcho productoOcho"
+            "productoUno productoUno productoDos productoCuatro productoCuatro"
+            "productoUno productoUno productoTres productoCuatro productoCuatro"
+            "productoCinco productoSiete productoSiete productoOcho productoOcho"
+            "productoSeis productoSiete productoSiete productoOcho productoOcho"
         ;
         grid-area: main;
     }
 
-   .productoUno {
-    display: flex;
-    grid-area: productoUno;
-    justify-content: center;
-    align-items: center;
-   }
+    .productoUno {
+        display: flex;
+        grid-area: productoUno;
+        justify-content: center;
+        align-items: center;
+    }
 
-   .productoUno img{
-    width: 300px;
-    height: 300px;
-   }
-   .productoDos {
-    display: flex;
-    grid-area: productoDos;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoUno img {
+        width: 300px;
+        height: 300px;
+    }
 
-   .productoDos img{
-    width: 150px;
-    height: 150px;
-   }
-   .productoTres {
-    display: flex;
-    grid-area: productoTres;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoDos {
+        display: flex;
+        grid-area: productoDos;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoTres img{
-    width: 150px;
-    height: 150px;
-   }
+    .productoDos img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoCuatro {
-    display: flex;
-    grid-area: productoCuatro;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoTres {
+        display: flex;
+        grid-area: productoTres;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoCuatro img{
-    width: 300px;
-    height: 300px;
-   }
+    .productoTres img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoDos img{
-    width: 150px;
-    height: 150px;
-   }
-   .productoTres {
-    display: flex;
-    grid-area: productoTres;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoCuatro {
+        display: flex;
+        grid-area: productoCuatro;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoTres img{
-    width: 150px;
-    height: 150px;
-   }
+    .productoCuatro img {
+        width: 300px;
+        height: 300px;
+    }
 
-   .productoCinco {
-    display: flex;
-    grid-area: productoCinco;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoDos img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoCinco img{
-    width: 150px;
-    height: 150px;
-   }
+    .productoTres {
+        display: flex;
+        grid-area: productoTres;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoSeis {
-    display: flex;
-    grid-area: productoSeis;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoTres img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoSeis img{
-    width: 150px;
-    height: 150px;
-   }
+    .productoCinco {
+        display: flex;
+        grid-area: productoCinco;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoSiete {
-    display: flex;
-    grid-area: productoSiete;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoCinco img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoSiete img{
-    width: 300px;
-    height: 300px;
-   }
+    .productoSeis {
+        display: flex;
+        grid-area: productoSeis;
+        align-items: center;
+        justify-content: center;
+    }
 
-   .productoOcho {
-    display: flex;
-    grid-area: productoOcho;
-    align-items: center;
-    justify-content: center;
-   }
+    .productoSeis img {
+        width: 150px;
+        height: 150px;
+    }
 
-   .productoOcho img{
-    width: 300px;
-    height: 300px;
-   }
-   
+    .productoSiete {
+        display: flex;
+        grid-area: productoSiete;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productoSiete img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .productoOcho {
+        display: flex;
+        grid-area: productoOcho;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productoOcho img {
+        width: 300px;
+        height: 300px;
+    }
+
 
 }
+
+/* galeria.html */
+/* mobile */
+
+.grid-container-main-galeria p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.videoUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.videoDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.videoTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.videoCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.videoCinco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.videoSeis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .grid-container-main-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "videoUno videoDos"
+            "videoTres videoCuatro"
+            "videoCinco videoSeis"
+        ;
+        grid-area: main;
+    }
+
+    .grid-container-main-galeria p {
+        padding-bottom: 10px;
+    }
+
+    .videoUno {
+        grid-area: videoUno;
+    }
+
+    .videoDos {
+        grid-area: videoDos;
+    }
+
+    .videoTres {
+        grid-area: videoTres;
+    }
+
+    .videoCuatro {
+        grid-area: videoCuatro;
+    }
+
+    .videoCinco {
+        grid-area: videoCinco;
+    }
+
+    .videoSeis {
+        grid-area: videoSeis;
+    }
+}
+
+@media (min-width: 1020px) {
+    .grid-container-main-galeria iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1280px) {
+
+    .grid-container-main-galeria {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "videoUno videoDos videoTres"
+            "videoCuatro videoCinco videoSeis"
+        ;
+        grid-area: main;
+        padding-bottom: 90px;
+    }
+
+    .grid-container-main-galeria iframe {
+        width: 350px;
+        height: 180px;
+    }
+
+
+}
+
+/* contactos.html */
+/* mmobile */
+
+.grid-container-main-contacto {
+    display: grid;
+    grid-template-columns: 1, auto;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "form"
+        "gracias"
+    ;
+    grid-area: main;
+}
+
+.grid-container-main-contacto p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.form {
+    background-image: url(../assets/img/abstract-background-blue.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: form;
+    padding-top: 15px;
+}
+
+.gracias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: gracias;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gracias img{
+    width: 400px;
+    height: 210px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit{
+    font-family: 'Poppins', sans-serif;
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 8px;
+    color: white;
+    background-color: #DB2763;
+}
+
+.planilla {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
