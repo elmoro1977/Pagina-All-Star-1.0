@@ -1108,7 +1108,7 @@ h1 {
 
 .chica img{
     width: 350px;
-    height: 213px;
+    height: 213pxgid;
 }
 
 .gracias {
@@ -1141,6 +1141,10 @@ h1 {
     background-color: #DB2763;
 }
 
+.submit:hover {
+    background-color: gray;
+}
+
 .planilla {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
@@ -1151,5 +1155,63 @@ h1 {
     margin-bottom: 15px;
 }
 
+@media (min-width: 1020px){
+
+    .grid-container-main-contacto {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "chica gracias"
+        "form gracias"
+
+        ;
+        grid-area: main;
+        padding-bottom: 20px;
+    }
+
+    .chica {
+        grid-area: chica;
+    }
+
+    .form {
+        grid-area: form;
+    }
+
+    .gracias {
+        grid-area: gracias;
+    }
+
+    .gracias img{
+        display: flex;
+        width: 500px;
+        height: 262px;
+    }
+
+    .submit {
+        width: 80px;
+        height: 30px;
+        font-size: 15px; 
+    }
+
+
+    
+
+
+}
+
+@media (min-width: 1280px) {
+    .gracias img{
+        width: 700px;
+        height: 368px;
+    }
+
+    .submit {
+        width: 90px;
+        height: 35px;
+        font-size: 18px; 
+    }
+
+}
 
 
