@@ -87,11 +87,18 @@ html {
     grid-area: logo;
 }
 
+
+
 .logo img {
     width: 200px;
     height: 84px;
 }
 
+
+.navbar-expand-lg, .navbar-collapse {
+    justify-content: flex-end;
+
+}
 .navbar {
     display: flex;
     flex-direction: column;
@@ -541,6 +548,58 @@ html {
         height: 300px;
     }
 
+}
+
+@media (min-width: 2298px) {
+
+    .sectionOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    .sectionOne img {
+        width: 456px;
+        height: 534px;
+    }
+
+    .tituloOne h1 {
+        font-size: 70px;
+    }
+
+
+    .tituloOne p {
+        font-size: 30px;
+    }
+
+    .tituloOne {
+        padding-top: 0px;
+    }
+    
+
+
+    .sectionTwo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .sectionTwo img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .tituloTwo p {
+        font-size: 30px;
+    }
+
+    .tituloTwo h2 {
+        font-size: 70px;
+    }
+
+    .tituloTwo {
+        padding-top: 0px;
+    }
 }
 
 /* html nosotros.html */
@@ -1214,5 +1273,7 @@ h1 {
     }
 
 }
+
+
 
 
