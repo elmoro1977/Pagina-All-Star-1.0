@@ -133,8 +133,8 @@ html {
     flex-direction: column;
     grid-area: sectionOne;
     background-image: url(https://sublishop.com.ar/wp-content/uploads/2019/11/fondo_header3-4.jpg);
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
+   
+    background-size: cover;
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -170,8 +170,9 @@ html {
     flex-direction: column;
     grid-area: sectionTwo;
     background-image: url(https://sublishop.com.ar/wp-content/uploads/2019/11/fondo_header3-4.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-size: 100%; */
+    background-size: cover;
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
